@@ -1,5 +1,9 @@
 import argparse
 
+import readline
+readline.parse_and_bind("tab: complete")
+
+
 try:
     input = raw_input
 
